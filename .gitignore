@@ -1,0 +1,19 @@
+# Nix
+result
+result-*
+.direnv/
+
+.env
+.env.*
+!.env.example
+secrets/
+
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+pc/hardware-configuration-old.nix
